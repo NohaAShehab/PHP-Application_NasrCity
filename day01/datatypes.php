@@ -114,13 +114,13 @@ error_reporting(E_ALL);
 //
 //var_dump($lec);
 $x= 'fdssdf';
-exit;
-exit();
 
 for($i=0;$i<10; $i++){
 
-    if($i==4) exit;
+    if($i==4) break;
     echo "We need the break!". $i."<br>";
 }
 
 echo "After the loop";
+
+echo "tstdashjkhsfjk3uir";
