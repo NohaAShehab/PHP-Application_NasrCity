@@ -21,7 +21,9 @@
   </pre>
     <pre>
     <label> Password </label>
-    <input type="text" name="password">
+    <input type="password" name="password"
+           value="<?php if(isset($_REQUEST['old_password'])){
+               echo $_REQUEST['old_password'];}?>">
 
     <label style="color: red">
       <?php if(isset($_GET["password"])){echo "password required";} ?>
